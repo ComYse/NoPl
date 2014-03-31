@@ -27,7 +27,7 @@ public class NoPlListener implements Listener {
 				
 				event.setCancelled(true);
 				
-				if(plugin.getConfig().getBoolean("Messages.EnableMessages") == Boolean.valueOf(true)) {
+				if(plugin.getConfig().getBoolean("Messages.EnableMessages")) {
 					
 					p.sendMessage(ChatColor.valueOf(plugin.getConfig().getString("Messages.MessageColor")) + plugin.getConfig().getString("Messages.Message").replaceAll("%player", p.getName()).replaceAll("%command", event.getMessage()));
 					
@@ -43,7 +43,7 @@ public class NoPlListener implements Listener {
 				
 				event.setCancelled(true);
 				
-				if(plugin.getConfig().getBoolean("Messages.EnableMessages") == Boolean.valueOf(true)) {
+				if(plugin.getConfig().getBoolean("Messages.EnableMessages")) {
 					
 					p.sendMessage(ChatColor.valueOf(plugin.getConfig().getString("Messages.MessageColor")) + plugin.getConfig().getString("Messages.Message").replaceAll("%player", p.getName()).replaceAll("%command", event.getMessage()));
 					
@@ -59,7 +59,7 @@ public class NoPlListener implements Listener {
 				
 				event.setCancelled(true);
 				
-				if(plugin.getConfig().getBoolean("Messages.EnableMessages") == Boolean.valueOf(true)) {
+				if(plugin.getConfig().getBoolean("Messages.EnableMessages")) {
 					
 					p.sendMessage(ChatColor.valueOf(plugin.getConfig().getString("Messages.MessageColor")) + plugin.getConfig().getString("Messages.Message").replaceAll("%player", p.getName()).replaceAll("%command", event.getMessage()));
 					
@@ -75,7 +75,7 @@ public class NoPlListener implements Listener {
 						
 				event.setCancelled(true);
 						
-				if(plugin.getConfig().getBoolean("Messages.EnableMessages") == Boolean.valueOf(true)) {
+				if(plugin.getConfig().getBoolean("Messages.EnableMessages")) {
 						
 					p.sendMessage(ChatColor.valueOf(plugin.getConfig().getString("Messages.MessageColor")) + plugin.getConfig().getString("Messages.Message").replaceAll("%player", p.getName()).replaceAll("%command", event.getMessage()));
 					
@@ -91,7 +91,7 @@ public class NoPlListener implements Listener {
 				
 				event.setCancelled(true);
 				
-				if(plugin.getConfig().getBoolean("Messages.EnableMessages") == Boolean.valueOf(true)) {
+				if(plugin.getConfig().getBoolean("Messages.EnableMessages")) {
 					
 					p.sendMessage(ChatColor.valueOf(plugin.getConfig().getString("Messages.MessageColor")) + plugin.getConfig().getString("Messages.Message").replaceAll("%player", p.getName()).replaceAll("%command", event.getMessage()));
 					

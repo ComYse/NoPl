@@ -1,5 +1,5 @@
 name: NoPl
-version: 1.6
+version: 1.6.1
 author: lordtobi
 description: Prevent those /plugins commands!
 
@@ -13,6 +13,6 @@ permissions:
     nopl.help:
         description: /help & /? command.
     nopl.info:
-        description: /info, /ifo, /news & /eabout command. (Essentials command)
+        description: /info, /ifo, /news & /eabout command. (Essentials commands)
     nopl.gc:
-        description: /gc, /lag, /mem & /memory command. (Essentials command)
+        description: /gc, /lag, /mem & /memory command. (Essentials commands)
