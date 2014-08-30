@@ -32,7 +32,7 @@ public class NoPl extends JavaPlugin {
 		
 		getConfig().addDefault("Messages.EnableMessages", Boolean.valueOf(true));
 			
-		getConfig().addDefault("Messages.Message", "%player, You don't have permission to use %command!");
+		getConfig().addDefault("Messages.Message", "Désolé, nos plugins sont privés!");
 		
 		getConfig().addDefault("Messages.MessageColor", "DARK_RED");
 		
